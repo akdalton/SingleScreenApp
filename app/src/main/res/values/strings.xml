@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pinnacle Animation</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="address">Pinnacle Animation, Circular Road, Ranchi, Jharkhand, India - 834001</string>
+    <string name="business_time">Open.Closes 09:00AM - 06:00PM</string>
+    <string name="contact">+91 9471562940</string>
+    <string name="email">pinnacleanimation@gmail.com</string>
+    <string name="web">https://pinnacleanima.wixsite.com/anima</string>
+    <string name="contDes">Business Logo</string>
+</resources>

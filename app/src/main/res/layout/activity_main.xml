@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/b_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/contDes"
+            android:src="@drawable/pinnacleanimation1" />
+
+        <TextView
+            android:id="@+id/b_contactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b_logo"
+            android:text="@string/contact_us"
+            android:textColor="@color/colorHeading"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/i_address"
+            style="@style/Image"
+            android:layout_below="@id/b_contactUs"
+            android:contentDescription="@string/address"
+            android:src="@drawable/ic_location_on_black_24dp" />
+
+        <TextView
+            android:id="@+id/b_address"
+            style="@style/Text"
+            android:layout_below="@id/b_contactUs"
+            android:layout_toEndOf="@id/i_address"
+            android:layout_toRightOf="@+id/i_address"
+            android:text="@string/address" />
+
+        <ImageView
+            android:id="@+id/i_time"
+            style="@style/Image"
+            android:layout_below="@id/b_address"
+            android:contentDescription="@string/business_time"
+            android:src="@drawable/ic_access_time_black_24dp" />
+
+        <TextView
+            android:id="@+id/b_time"
+            style="@style/Text"
+            android:layout_below="@id/b_address"
+            android:layout_toEndOf="@id/i_time"
+            android:layout_toRightOf="@id/i_time"
+            android:text="@string/business_time" />
+
+        <ImageView
+            android:id="@+id/i_email"
+            style="@style/Image"
+            android:layout_below="@id/b_time"
+            android:contentDescription="@string/email"
+            android:src="@drawable/ic_email_black_24dp" />
+
+        <TextView
+            android:id="@+id/b_email"
+            style="@style/Text"
+            android:layout_below="@id/b_time"
+            android:layout_toEndOf="@id/i_email"
+            android:layout_toRightOf="@id/i_email"
+            android:autoLink="email"
+            android:linksClickable="true"
+            android:text="@string/email" />
+
+        <ImageView
+            android:id="@+id/i_contact"
+            style="@style/Image"
+            android:layout_below="@id/b_email"
+            android:contentDescription="@string/contact"
+            android:src="@drawable/ic_call_black_24dp" />
+
+        <TextView
+            android:id="@+id/b_contact"
+            style="@style/Text"
+            android:layout_below="@id/b_email"
+            android:layout_toEndOf="@id/i_contact"
+            android:layout_toRightOf="@id/i_contact"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:text="@string/contact" />
+
+        <ImageView
+            android:id="@+id/i_web"
+            android:contentDescription="@string/address"
+            style="@style/Image"
+            android:layout_below="@id/b_contact"
+            android:src="@drawable/ic_language_black_24dp" />
+
+        <TextView
+
+            android:id="@+id/b_web"
+            style="@style/Text"
+            android:layout_below="@id/b_contact"
+            android:layout_toEndOf="@id/i_web"
+            android:layout_toRightOf="@id/i_web"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/web" />
+    </RelativeLayout>
+
+
+</ScrollView>
