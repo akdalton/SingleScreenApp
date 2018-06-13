@@ -5,8 +5,8 @@ SingleScreenApp is basically an android based business application in which i ha
 * Core Java
 * XML
 
-## Versioning
-For the versions 1.0, see the [SingleScreenApp](https://github.com/akdalton/SingleScreenApp).
+## Versions
+For the version 1.0, see the [SingleScreenApp](https://github.com/akdalton/SingleScreenApp).
 
 ## Authors
 * **Ashish Kumar** - *Initial work* - [akdalton](https://github.com/akdalton)
