@@ -1,5 +1,5 @@
 # SingleScreenApp
-SingleScreenApp is basically a android based business application in which i have mentioned all the information related to business like Business name , address, contact no., email and website link.
+SingleScreenApp is basically an android based business application in which i have mentioned all the information related to business like Business name , address, contact no., email and website link.
 
 ## Technology Uses 
 * Core Java
